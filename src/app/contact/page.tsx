@@ -1,6 +1,4 @@
 'use client';
-import DotGrid from '../../components/DotGrid/DotGrid';
-import '../../components/DotGrid/DotGrid.css';
 import GooeyNav from '../../components/GooeyNav/GooeyNav';
 import '../../components/GooeyNav/GooeyNav.css';
 import {navItems} from '../../constants/navItems'

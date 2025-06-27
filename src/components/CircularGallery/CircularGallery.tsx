@@ -52,65 +52,6 @@ function createTextTexture(gl, text, font = "bold 30px monospace", color = "blac
   return { texture, width: canvas.width, height: canvas.height }
 }
 
-class Title {
-  constructor({ gl, plane, renderer, text, textColor = "#545050", font = "30px sans-serif" }) {
-    autoBind(this)
-    this.gl = gl
-    this.plane = plane
-    this.renderer = renderer
-    this.text = text
-    this.textColor = textColor
-    this.font = font
-    this.createMesh()
-  }
-  createMesh() {
-    const { texture, width, height } = createTextTexture(
-      this.gl,
-      this.text,
-      this.font,
-      this.textColor
-    )
-    const geometry = new Plane(this.gl)
-    const program = new Program(this.gl, {
-      vertex: `
-        attribute vec3 position;
-        attribute vec2 uv;
-        uniform mat4 modelViewMatrix;
-        uniform mat4 projectionMatrix;
-        varying vec2 vUv;
-        void main() {
-          vUv = uv;
-          gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
-        }
-      `,
-      fragment: `
-        precision highp float;
-        uniform sampler2D tMap;
-        varying vec2 vUv;
-        void main() {
-          vec4 color = texture2D(tMap, vUv);
-          if (color.a < 0.1) discard;
-          gl_FragColor = color;
-        }
-      `,
-      uniforms: { tMap: { value: texture } },
-      transparent: true
-    })
-    this.mesh = new Mesh(this.gl, { geometry, program })
-    const aspect = width / height
-
-// Set a fixed text height (relative to world units, not image)
-const textHeight = 0.18   // <-- you can adjust this value as you wish
-const textWidth = 0.19
-
-this.mesh.scale.set(textWidth, textHeight, 1)
-
-// Place it below the image plane
-this.mesh.position.y = - (this.plane.scale.y / 2) - (textHeight / 2) - 0.1
-    this.mesh.setParent(this.plane)
-  }
-}
-
 class Media {
   constructor({
     geometry,
