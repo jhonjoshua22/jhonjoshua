@@ -253,7 +253,7 @@ export default function Home() {
                                 Smart Clinic
                         </h1>
                     </div>
-                    <div className="bg-gray-200 p-4 h-[28vw]"><a href="https://github.com/jhonjoshua22/ClassicGamesHub/"><img src="../images/cghFrame.png"/></a>
+                    <div className="bg-gray-200 p-4 h-[28vw]"><a href="https://jhonjoshua22.github.io/ClassicGamesHub/"><img src="../images/cghFrame.png"/></a>
                         <h1 style={{ 
                             textAlign: 'center', 
                             fontSize: '2vw', 
