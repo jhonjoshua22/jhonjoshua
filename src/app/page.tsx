@@ -242,7 +242,7 @@ export default function Home() {
             <div className="text-black">
                 <h1 className="text-center text-[6vw] font-bold">Project Showcase</h1>
                 <div className="h-[auto] w-full grid grid-cols-3 gap-4" style={{ padding: '3% 2%' }}>
-                    <div className="bg-gray-200 p-4 h-[28vw]"><img src="../images/scFrame.png"/>
+                    <div className="bg-gray-200 p-4 h-[28vw]"><a href="https://smart-clinic.infinityfreeapp.com/" target="_blank"><img src="../images/scFrame.png"/></a>
                         <h1 style={{ 
                             textAlign: 'center', 
                             fontSize: '2vw', 
@@ -253,7 +253,7 @@ export default function Home() {
                                 Smart Clinic
                         </h1>
                     </div>
-                    <div className="bg-gray-200 p-4 h-[28vw]"><a href="https://jhonjoshua22.github.io/ClassicGamesHub/"><img src="../images/cghFrame.png"/></a>
+                    <div className="bg-gray-200 p-4 h-[28vw]"><a href="https://jhonjoshua22.github.io/ClassicGamesHub/" target="blank"><img src="../images/cghFrame.png"/></a>
                         <h1 style={{ 
                             textAlign: 'center', 
                             fontSize: '2vw', 
