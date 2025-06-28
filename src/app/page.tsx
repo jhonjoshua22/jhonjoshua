@@ -253,7 +253,17 @@ export default function Home() {
                                 Smart Clinic
                         </h1>
                     </div>
-                    <div className="bg-gray-200 p-4">Item 2</div>
+                    <div className="bg-gray-200 p-4 h-[28vw]"><img src="../images/cghFrame.png"/>
+                        <h1 style={{ 
+                            textAlign: 'center', 
+                            fontSize: '2vw', 
+                            zIndex: '2',
+                            fontWeight: 800,
+                            fontFamily: 'Gilroy',
+                            marginTop: '-8vw',}}>
+                                Classic Games Hub
+                        </h1>
+                    </div>
                     <div className="bg-gray-200 p-4">Item 3</div>
                     <div className="bg-gray-200 p-4 h-[28vw]">Item 4</div>
                     <div className="bg-gray-200 p-4">Item 3</div>

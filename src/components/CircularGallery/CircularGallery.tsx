@@ -282,7 +282,7 @@ class App {
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
       { image: "../images/smartclinic.png", text: 'Smart Clinic' },
-      { image: "../images/meme2.jpg", text: 'Smart Clinic' },
+      { image: "../images/cgh.png", text: 'Classic Games Hub' },
       { image: "../images/meme3.jpg", text: 'Smart Clinic' },
       { image: "../images/meme4.jpg", text: 'Smart Clinic' },
     ]
