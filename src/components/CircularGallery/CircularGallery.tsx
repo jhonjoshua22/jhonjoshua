@@ -283,8 +283,6 @@ class App {
     const defaultItems = [
       { image: "../images/smartclinic.png", text: 'Smart Clinic' },
       { image: "../images/cgh.png", text: 'Classic Games Hub' },
-      { image: "../images/meme3.jpg", text: 'Smart Clinic' },
-      { image: "../images/meme4.jpg", text: 'Smart Clinic' },
     ]
     const galleryItems = items && items.length ? items : defaultItems
     this.mediasImages = galleryItems.concat(galleryItems)
