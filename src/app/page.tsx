@@ -114,7 +114,6 @@ export default function Home() {
                 <div><img src="../images/ip.png" className="h-[5vw]"/></div>
             </div>
 
-
             <div style={{color: 'black', fontFamily: 'Gilroy', fontWeight: 800, zIndex: '1', marginBottom: '15vw'}}className="justify-center flex  gap-10 mt-[1vw]">
             <div className="p-[2vw] ml-[15vw] flex-col w-[40vw] z-[0] h-[40vw]">
                 <h1 id="about" className="text-left w-[100%] text-[6vw] font-bold"> About me...</h1>
