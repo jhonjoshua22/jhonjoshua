@@ -58,7 +58,7 @@ export default function Home() {
                     enableMouseInteraction={true}
                 />
             </div>
-
+            <a href="../cv.pdf" download>
             <div style={{
                     display: 'flex',
                     alignItems: 'center',
@@ -74,6 +74,7 @@ export default function Home() {
                     color: 'black',
                     textAlign: 'center',
             }} className="relative"><img src="../images/cv.png" className="h-[1.9vw]"/><h1 style={{marginLeft: '0.7vw', paddingTop:'0.2vw',}}> Download CV</h1></div>
+            </a>
 
             <div style={{  color: 'black', background: "transparent", marginTop: '15vw', fontFamily: 'Gilroy', fontWeight: 800}} className=" w-full flex justify-center items-center my-4 md:mt-15 text-center font-bold relative px-4 md:px-0">
                 <BlurText
