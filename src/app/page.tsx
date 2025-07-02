@@ -39,7 +39,7 @@ export default function Home() {
     ];
 
     return (
-        <main className="relative bg-black min-h-screen" style={{ backgroundColor: "white" , minHeight: "100vh" }}>
+        <main className="relative bg-black min-h-screen" style={{ fontFamily: 'Gilroy', fontWeight: '800', backgroundColor: "white" , minHeight: "100vh" }}>
             
             
             <CircularText
