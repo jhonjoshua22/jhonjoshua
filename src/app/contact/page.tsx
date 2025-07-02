@@ -104,18 +104,20 @@ export default function Home() {
                 fontWeight: '800',
                 }} className=" w-[50%] h-[auto]">
                 <h1 style={{fontSize: '3vw', textAlign: 'center', marginBottom: '3vw'}}>Email Me</h1>
-                <input type='text' placeholder='Name' style={{width: '100%', height: '3vw', border: '2px solid black', borderRadius: '5px', padding: '0.5vw', fontSize: '1vw', marginBottom: '2vw'}}/>
-                <input type='text' placeholder='Email' style={{width: '100%', height: '3vw', border: '2px solid black', borderRadius: '5px', padding: '0.5vw', fontSize: '1vw', marginBottom: '2vw'}}/>
-                <input type='text' placeholder='Subject' style={{width: '100%', height: '3vw', border: '2px solid black', borderRadius: '5px', padding: '0.5vw', fontSize: '1vw', marginBottom: '2vw'}}/>
+                <input type='text' placeholder='Name' style={{background: 'rgba(255, 255, 255, 0.1)', backdropFilter: 'blur(2px)', width: '100%', height: '3vw', border: '1px solid black', borderRadius: '5px', padding: '0.5vw', fontSize: '1vw', marginBottom: '2vw'}}/>
+                <input type='text' placeholder='Email' style={{background: 'rgba(255, 255, 255, 0.1)', backdropFilter: 'blur(2px)', width: '100%', height: '3vw', border: '1px solid black', borderRadius: '5px', padding: '0.5vw', fontSize: '1vw', marginBottom: '2vw'}}/>
+                <input type='text' placeholder='Subject' style={{background: 'rgba(255, 255, 255, 0.1)', backdropFilter: 'blur(2px)', width: '100%', height: '3vw', border: '1px solid black', borderRadius: '5px', padding: '0.5vw', fontSize: '1vw', marginBottom: '2vw'}}/>
                 <textarea
                     id="emailMessage"
                     name="emailMessage"
                     placeholder="Type your message here..."
                     style={{
+                        background: 'rgba(255, 255, 255, 0.1)',
+                        backdropFilter: 'blur(2px)',
                         width: "100%",
                         minHeight: "120px",
                         resize: "vertical",
-                        border: "2px solid black",
+                        border: "1px solid black",
                         borderRadius: "5px",
                         marginBottom: "2vw",
                         padding: "0.5vw",
@@ -123,7 +125,8 @@ export default function Home() {
                         boxSizing: "border-box",
                     }}
                 />
-                <button type='submit' style={{background: 'black', color: 'white', fontWeight: '800', display: 'block', margin: '0 auto', width: '50%', height: '3.5vw', border: '2px solid black', borderRadius: '10px', padding: '0.5vw', fontSize: '1.5vw', marginBottom: '2vw'}}>Send</button>
+                <button type='submit' style={{background: 'black', color: 'white', fontWeight: '800', display: 'block', margin: '0 auto', width: '50%', height: '3.5vw', border: '1px solid white', borderRadius: '10px', padding: '0.5vw', fontSize: '1.5vw', marginBottom: '2vw'}}>Send</button>
+
 
             </div>
             
