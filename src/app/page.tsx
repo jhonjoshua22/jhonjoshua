@@ -108,8 +108,8 @@ export default function Home() {
                 background: 'transparent',
                 color: 'white',
             }}>
-                <div><img src="../images/4p.png" className="h-[5vw]"/></div>
-                <div><img src="../images/1e.png" className="h-[5vw]"/></div>
+                <div><img src="../images/4pc.png" className="h-[5vw]"/></div>
+                <div><img src="../images/1ye.png" className="h-[5vw]"/></div>
                 <div><img src="../images/5t.png" className="h-[5vw]"/></div>
                 <div><img src="../images/ip.png" className="h-[5vw]"/></div>
             </div>
