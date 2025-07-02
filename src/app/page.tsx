@@ -86,7 +86,7 @@ export default function Home() {
                 />
             </div>
 
-            <div style={{ color: 'black', marginBottom: '25vw', fontSize: '5vw', fontFamily: 'Gilroy', fontWeight: 800 }}>
+            <div style={{ color: 'black', marginBottom: '8vw', fontSize: '5vw', fontFamily: 'Gilroy', fontWeight: 800 }}>
                 <TrueFocus
                     sentence="Design. Create. Transform."
                     manualMode={true}
