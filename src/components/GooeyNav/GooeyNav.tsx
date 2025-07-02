@@ -96,7 +96,7 @@ export default function GooeyNav({
         };
         Object.assign(filterRef.current.style, styles);
         Object.assign(textRef.current.style, styles);
-        textRef.current.innerText = element.innerText;
+        //textRef.current.innerText = element.innerText;
     };
 
     useEffect(() => {
