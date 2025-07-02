@@ -59,6 +59,22 @@ export default function Home() {
                 />
             </div>
 
+            <div style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    width: '18vw',
+                    position: 'fixed',
+                    height: '7vw',
+                    fontSize: '1vw',
+                    right: '0',
+                    top: '0',
+                    marginTop: '1vw',
+                    zIndex: '1',
+                    fontWeight: 'bold',
+                    color: 'black',
+                    textAlign: 'center',
+            }} className="relative"><img src="../images/cv.png" className="h-[1.9vw]"/><h1 style={{marginLeft: '0.7vw', paddingTop:'0.2vw',}}> Download CV</h1></div>
+
             <div style={{  color: 'black', background: "transparent", marginTop: '15vw', fontFamily: 'Gilroy', fontWeight: 800}} className=" w-full flex justify-center items-center my-4 md:mt-15 text-center font-bold relative px-4 md:px-0">
                 <BlurText
                     text="Joshua Abutan"
@@ -80,6 +96,24 @@ export default function Home() {
                     pauseBetweenAnimations={1}
                 />
             </div>
+
+            <div style={{
+                display: 'grid',
+                justifyItems: 'center',
+                alignItems: 'center',
+                gridTemplateColumns: 'repeat(4, 1fr)', // 3 equal-width columns
+                height: '20vh',
+                marginBottom: '5vw',
+                padding: '3vw 30vw',
+                background: 'transparent',
+                color: 'white',
+            }}>
+                <div><img src="../images/4p.png" className="h-[5vw]"/></div>
+                <div><img src="../images/1e.png" className="h-[5vw]"/></div>
+                <div><img src="../images/5t.png" className="h-[5vw]"/></div>
+                <div><img src="../images/ip.png" className="h-[5vw]"/></div>
+            </div>
+
 
             <div style={{color: 'black', fontFamily: 'Gilroy', fontWeight: 800, zIndex: '1', marginBottom: '15vw'}}className="justify-center flex  gap-10 mt-[1vw]">
             <div className="p-[2vw] ml-[15vw] flex-col w-[40vw] z-[0] h-[40vw]">
