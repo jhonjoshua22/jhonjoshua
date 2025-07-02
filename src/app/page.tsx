@@ -72,7 +72,7 @@ export default function Home() {
 
             <div style={{ color: 'black', marginBottom: '25vw', fontSize: '5vw', fontFamily: 'Gilroy', fontWeight: 800 }}>
                 <TrueFocus
-                    sentence="Design. Create. Transform."
+                    sentence="4+ Project Completed. 1 Year Experience."
                     manualMode={true}
                     blurAmount={5}
                     borderColor="red"
