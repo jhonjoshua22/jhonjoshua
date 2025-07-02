@@ -25,6 +25,22 @@ export default function Home() {
 
             <GooeyNav style={{fontSize: '1vw', fontFamily: 'Gilroy', fontWeight: 800}}items={navItems} />
 
+            <div style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    width: '18vw',
+                    position: 'fixed',
+                    height: '7vw',
+                    fontSize: '1vw',
+                    right: '0',
+                    top: '0',
+                    marginTop: '1vw',
+                    zIndex: '1',
+                    fontWeight: 'bold',
+                    color: 'black',
+                    textAlign: 'center',
+            }} className="relative"><img src="../images/cv.png" className="h-[1.9vw]"/><h1 style={{marginLeft: '0.7vw', paddingTop:'0.2vw',}}> Download CV</h1></div>
+            
             <div style={{ position: 'relative', width: '100%', height: '100vh', alignItems: 'center', justifyContent: 'center' }}>
   
             <div style={{ width: '100%', height: '1000px', position: 'relative' }}>
