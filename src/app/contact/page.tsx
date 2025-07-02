@@ -20,6 +20,7 @@ export default function Home() {
                 text=" Josh Abutan * Josh Abutan *"
                 onHover="speedUp"
                 spinDuration={20}
+                style={{ fontWeight: 800 }}
             />    
 
             <GooeyNav style={{fontSize: '1vw', fontFamily: 'Gilroy', fontWeight: 800}}items={navItems} />
