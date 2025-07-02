@@ -51,6 +51,26 @@ export default function Home() {
 
             <GooeyNav style={{fontSize: '1vw', fontFamily: 'Gilroy', fontWeight: 800}}items={navItems} />
 
+            <a href="../cv.pdf" download>
+            <div style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    width: '9vw',
+                    position: 'fixed',
+                    height: '3vw',
+                    fontSize: '1vw',
+                    right: '0',
+                    border: '2px solid red',
+                    top: '0',
+                    marginTop: '3vw',
+                    marginRight: '7vw',
+                    zIndex: '1',
+                    fontWeight: 'bold',
+                    color: 'black',
+                    textAlign: 'center',
+            }} className="relative"><img src="../images/cv.png" className="h-[1.9vw]"/><h1 style={{marginLeft: '0.7vw', paddingTop:'0.2vw',}}> Download CV</h1></div>
+            </a>
+            
             <div style={{ width: '100%', height: '60vh', position: "absolute"}} className="hidden md:block">
                 <Threads
                     amplitude={1}
@@ -58,23 +78,6 @@ export default function Home() {
                     enableMouseInteraction={true}
                 />
             </div>
-            <a href="../cv.pdf" download>
-            <div style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    width: '18vw',
-                    position: 'fixed',
-                    height: '7vw',
-                    fontSize: '1vw',
-                    right: '0',
-                    top: '0',
-                    marginTop: '1vw',
-                    zIndex: '1',
-                    fontWeight: 'bold',
-                    color: 'black',
-                    textAlign: 'center',
-            }} className="relative"><img src="../images/cv.png" className="h-[1.9vw]"/><h1 style={{marginLeft: '0.7vw', paddingTop:'0.2vw',}}> Download CV</h1></div>
-            </a>
 
             <div style={{  color: 'black', background: "transparent", marginTop: '15vw', fontFamily: 'Gilroy', fontWeight: 800}} className=" w-full flex justify-center items-center my-4 md:mt-15 text-center font-bold relative px-4 md:px-0">
                 <BlurText
