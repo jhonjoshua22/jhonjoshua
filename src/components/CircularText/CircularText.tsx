@@ -113,7 +113,7 @@ const CircularText = ({
 
     {/* ✅ CENTER IMAGE HERE */}
     <img
-      src="/Images/plogo.png"
+      src="/images/plogo.png"
       alt="Center"
       className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16"
     />
