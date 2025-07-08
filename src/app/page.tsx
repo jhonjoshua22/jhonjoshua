@@ -49,20 +49,20 @@ export default function Home() {
             />    
             
 
-            <GooeyNav style={{fontSize: '1vw', fontFamily: 'Gilroy', fontWeight: 800}}items={navItems} />
+            <GooeyNav style={{fontSize: '17px', fontFamily: 'Gilroy', fontWeight: 800}}items={navItems} />
 
             <a href="../cv.pdf" download>
             <div style={{
                     display: 'flex',
                     alignItems: 'center',
-                    width: '9vw',
+                    width: '12vw',
                     position: 'fixed',
                     height: '3vw',
-                    fontSize: '1vw',
+                    fontSize: '1.2vw',
                     right: '0',
                     top: '0',
                     marginTop: '3vw',
-                    marginRight: '8vw',
+                    marginRight: '6vw',
                     zIndex: '1',
                     fontWeight: 'bold',
                     color: 'black',
@@ -94,7 +94,7 @@ export default function Home() {
                     sentence="Design. Create. Transform."
                     manualMode={true}
                     blurAmount={5}
-                    borderColor="yellow"
+                    borderColor="red"
                     animationDuration={0.5}
                     pauseBetweenAnimations={1}
                 />
