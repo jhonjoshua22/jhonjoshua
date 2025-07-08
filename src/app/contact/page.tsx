@@ -35,7 +35,7 @@ export default function Home() {
                     right: '0',
                     top: '0',
                     marginTop: '1vw',
-                    marginRight: '8vw',
+                    marginRight: '6vw',
                     zIndex: '1',
                     fontWeight: 'bold',
                     color: 'black',
