@@ -43,7 +43,7 @@ export default function Home() {
             
             
             <CircularText
-                text=" Josh Abutan * Josh Abutan *"
+                text=" JOSHUA ABUTAN @ JOSHUA ABUTAN @"
                 onHover="speedUp"
                 spinDuration={20}
             />    
