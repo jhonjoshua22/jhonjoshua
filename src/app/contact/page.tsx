@@ -23,18 +23,19 @@ export default function Home() {
                 style={{ fontWeight: 800 }}
             />    
 
-            <GooeyNav style={{fontSize: '1vw', fontFamily: 'Gilroy', fontWeight: 800}}items={navItems} />
+            <GooeyNav style={{fontSize: '17px', fontFamily: 'Gilroy', fontWeight: 800}}items={navItems} />
 
             <div style={{
                     display: 'flex',
                     alignItems: 'center',
-                    width: '18vw',
+                    width: '12vw',
                     position: 'fixed',
                     height: '7vw',
-                    fontSize: '1vw',
+                    fontSize: '1.2vw',
                     right: '0',
                     top: '0',
                     marginTop: '1vw',
+                    marginRight: '8vw',
                     zIndex: '1',
                     fontWeight: 'bold',
                     color: 'black',
