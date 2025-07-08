@@ -60,7 +60,7 @@ export default function Home() {
 
             <h1 style={{
                 position: 'absolute',
-                top: '0',
+                top: '15vw',
                 left: '50%',
                 transform: 'translate(-50%, -50%)',
                 color: 'black',
@@ -72,7 +72,7 @@ export default function Home() {
 
             <div style={{
                 position: 'absolute',
-                top: '47%',
+                top: '20vw',
                 color: 'black',
                 textAlign: 'left',
                 padding: '4vw 10%',
@@ -95,7 +95,7 @@ export default function Home() {
 
             <div style={{
                 position: 'absolute',
-                top: '47%',
+                top: '20vw',
                 color: 'black',
                 right: '0%',
                 textAlign: 'left',
