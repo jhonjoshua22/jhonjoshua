@@ -60,7 +60,7 @@ export default function Home() {
 
             <h1 style={{
                 position: 'absolute',
-                top: '30%',
+                top: '0',
                 left: '50%',
                 transform: 'translate(-50%, -50%)',
                 color: 'black',
