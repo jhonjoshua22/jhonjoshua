@@ -78,28 +78,28 @@ export default function Home() {
                 />
             </div>
 
-            <div style={{  color: 'black', background: "transparent", marginTop: '15vw', fontFamily: 'Gilroy', fontWeight: 800}} className=" w-full flex justify-center items-center my-4 md:mt-15 text-center font-bold relative px-4 md:px-0">
+                        <div style={{  color: 'black', background: "transparent", marginTop: '15vw', fontFamily: 'Gilroy', fontWeight: 800}} className=" w-full flex justify-center items-center my-4 md:mt-15 text-center font-bold relative px-4 md:px-0">
                 <BlurText
                     text="Joshua Abutan"
                     delay={150}
                     animateBy="letters"
                     direction="top"
                     onAnimationComplete={handleAnimationComplete}
-                    className="lg:text-9xl md:text-7xl text-4xl text-center"
+                    className="lg:text-9xl md:text-7xl text-[12vw] text-center"
                 />
             </div>
 
-            <div style={{ color: 'black', marginBottom: '8vw', fontSize: '5vw', fontFamily: 'Gilroy', fontWeight: 800 }}>
+            <div style={{ color: 'black', marginBottom: '8vw', fontSize: '4vw', fontFamily: 'Gilroy', fontWeight: 800 }}>
                 <TrueFocus
                     sentence="Design. Create. Transform."
                     manualMode={true}
                     blurAmount={5}
-                    borderColor="red"
+                    borderColor="yellow"
                     animationDuration={0.5}
                     pauseBetweenAnimations={1}
                 />
             </div>
-
+            
             <div style={{
                 display: 'grid',
                 justifyItems: 'center',
@@ -107,128 +107,111 @@ export default function Home() {
                 gridTemplateColumns: 'repeat(4, 1fr)', // 3 equal-width columns
                 height: '20vh',
                 marginBottom: '5vw',
-                padding: '3vw 30vw',
+                padding: '3vw 10vw',
                 background: 'transparent',
                 color: 'white',
-            }}>
-                <div><img src="../images/1ye.png" className="h-[5vw] w-[5vw] transform transition-transform duration-300 hover:scale-110"/></div>
-                <div><img src="../images/4pc.png" className="h-[5vw] w-[5vw] transform transition-transform duration-300 hover:scale-110"/></div>
-                <div><img src="../images/5t.png" className="h-[5vw] w-[5vw] transform transition-transform duration-300 hover:scale-110"/></div>
-                <div><img src="../images/ip.png" className="h-[5vw] w-[5vw] transform transition-transform duration-300 hover:scale-110"/></div>
+                }}>
+                <div><img src="../images/4p.png" className="w-[64px] transform transition-transform duration-300 hover:scale-110"/></div>
+                <div><img src="../images/1e.png" className="w-[64px] transform transition-transform duration-300 hover:scale-110"/></div>
+                <div><img src="../images/5t.png" className="w-[64px] transform transition-transform duration-300 hover:scale-110"/></div>
+                <div><img src="../images/ip.png" className="w-[64px] transform transition-transform duration-300 hover:scale-110"/></div>
             </div>
 
-            <div style={{color: 'black', fontFamily: 'Gilroy', fontWeight: 800, zIndex: '1', marginBottom: '15vw'}}className="justify-center flex  gap-10 mt-[1vw]">
-            <div className="p-[2vw] ml-[15vw] flex-col w-[40vw] z-[0] h-[40vw]">
-                <h1 id="about" className="text-left w-[100%] text-[6vw] font-bold"> About me...</h1>
-                <Typing className="w-[100%] text-[1vw] h-[10vw]"/>
-                <h2 style={{fontFamily: 'Gilroy', fontWeight: 800}}className="text-[1.6vw]">Tech Stack</h2>
-                <StarBorder
-                    as="button"
-                    className="custom-class"
-                    color="black"
-                    speed="4s"
-                    >
-                React
-                </StarBorder>
-                <StarBorder
-                    as="button"
-                    className="custom-class"
-                    color="black"
-                    speed="5s"
-                    >
-                Javascript
-                </StarBorder>
-                <StarBorder
-                    as="button"
-                    className="custom-class"
-                    color="black"
-                    speed="7s"
-                    >
-                Next.js
-                </StarBorder>
-                <StarBorder
-                    as="button"
-                    className="custom-class"
-                    color="black"
-                    speed="6s"
-                    >
-                CSS
-                </StarBorder>
-                <StarBorder
-                    as="button"
-                    className="custom-class"
-                    color="black"
-                    speed="4s"
-                    >
-                Tailwind
-                </StarBorder><br/>
-                <StarBorder
-                    as="button"
-                    className="custom-class"
-                    color="black"
-                    speed="3s"
-                    >
-                Php
-                </StarBorder>
-                <StarBorder
-                    as="button"
-                    className="custom-class"
-                    color="black"
-                    speed="5s"
-                    >
-                MySQL
-                </StarBorder>
-                <StarBorder
-                    as="button"
-                    className="custom-class"
-                    color="black"
-                    speed="7s"
-                    >
-                HTML
-                </StarBorder>
-                <br/><br/><h2 style={{fontFamily: 'Gilroy', fontWeight: 800}}className="text-[1.6vw]">Creative Tools</h2>
-                <StarBorder
-                    as="button"
-                    className="custom-class"
-                    color="black"
-                    speed="2s"
-                    >
-                Figma
-                </StarBorder>
-                <StarBorder
-                    as="button"
-                    className="custom-class"
-                    color="black"
-                    speed="4s"
-                    >
-                Canva
-                </StarBorder>
-                <StarBorder
-                    as="button"
-                    className="custom-class"
-                    color="black"
-                    speed="6s"
-                    >
-                After Effects
-                </StarBorder>
-                <StarBorder
-                    as="button"
-                    className="custom-class"
-                    color="black"
-                    speed="5s"
-                    >
-                Illustrator
-                </StarBorder>
-            </div>
+<div
+  style={{
+    color: 'black',
+    fontFamily: 'Gilroy',
+    fontWeight: 800,
+    zIndex: '1',
+    marginBottom: '15vw',
+  }}
+  className="flex flex-col sm:flex-row justify-center items-center gap-10 mt-[5vw] px-4"
+>
+  <div className="p-[5vw] sm:p-[2vw] sm:ml-[5vw] flex flex-col w-full sm:w-[40vw] h-auto sm:h-[40vw]">
+    <div className="w-full flex justify-center">
+    <div className="max-w-[calc(100%-40px)] w-full">
+    <h1
+      id="about"
+      className="text-left w-full text-[8vw] sm:text-[4vw] font-bold"
+    >
+      About me...
+    </h1>
+    </div>
+    </div>
+    <div className="w-full flex justify-center">
+    <div className="max-w-[calc(100%-40px)] w-full">
+        <Typing className="text-[15px] sm:text-[1vw] h-auto sm:h-[10vw]" />
+    </div>
+    </div><br/>
 
-            <Stacks
-                randomRotation={true}
-                sensitivity={180}
-                sendToBackOnClick={false}
-                cardDimensions={{ width: 400, height: 400 }}
-                cardsData={images}
-            />
-            </div>
+    <div className="w-full flex justify-center">
+    <div className="max-w-[calc(100%-40px)] w-full">
+    <h2 className="text-[5vw] sm:text-[1.6vw]">Tech Stack</h2>
+    </div>
+    </div>
+
+    <div className="w-full flex justify-center">
+    <div className="max-w-[calc(100%-40px)] w-full">
+    <div className="flex flex-wrap gap-2 mt-2">
+      {[
+        ['React', '4s'],
+        ['Javascript', '5s'],
+        ['Next.js', '7s'],
+        ['CSS', '6s'],
+        ['Tailwind', '4s'],
+        ['Php', '3s'],
+        ['MySQL', '5s'],
+        ['HTML', '7s'],
+      ].map(([text, speed]) => (
+        <StarBorder
+          key={text}
+          as="button"
+          className="custom-class"
+          color="black"
+          speed={speed}
+        >
+          {text}
+        </StarBorder>
+      ))}
+    </div>
+    </div>
+    </div><br/>
+
+    <div className="w-full flex justify-center">
+    <div className="max-w-[calc(100%-40px)] w-full">
+    <h2 className="text-[5vw] sm:text-[1.6vw] mt-6">Creative Tools</h2>
+    <div className="flex flex-wrap gap-2 mt-2">
+      {[
+        ['Figma', '2s'],
+        ['Canva', '4s'],
+        ['After Effects', '6s'],
+        ['Illustrator', '5s'],
+      ].map(([text, speed]) => (
+        <StarBorder
+          key={text}
+          as="button"
+          className="custom-class"
+          color="black"
+          speed={speed}
+        >
+          {text}
+        </StarBorder>
+      ))}
+    </div>
+    </div>
+    </div>
+  </div>
+
+  <div className="w-full sm:w-[auto] flex justify-center">
+    <Stacks
+      randomRotation={true}
+      sensitivity={180}
+      sendToBackOnClick={false}
+      cardDimensions={{ width: 350, height: 450 }}
+      cardsData={images}
+    />
+  </div>
+</div>
 
             <div style={{height: '40vw', position: 'relative' }} className="ml-[15vw] flex-col w-[100%] z-[0]">
                 <h1 id="about" className="text-center w-[100%] text-[6vw] font-bold text-black">Highlights</h1>
