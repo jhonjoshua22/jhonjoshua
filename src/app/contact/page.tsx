@@ -17,7 +17,7 @@ export default function Home() {
         <main className="relative bg-black min-h-screen" style={{ fontFamily: 'Gilroy', backgroundColor: "white" , minHeight: "100vh" }}>
             
             <CircularText
-                text=" Josh Abutan * Josh Abutan *"
+                text=" JOSHUA ABUTAN @ JOSHUA ABUTAN @"
                 onHover="speedUp"
                 spinDuration={20}
                 style={{ fontWeight: 800 }}
