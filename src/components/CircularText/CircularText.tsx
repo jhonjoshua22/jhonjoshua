@@ -87,8 +87,9 @@ const CircularText = ({
   };
 
   return (
+  <div className={`circular-text-wrapper relative ${className}`}>
     <motion.div
-      className={`circular-text ${className}`}
+      className="circular-text"
       style={{ rotate: rotation }}
       initial={{ rotate: 0 }}
       animate={controls}
@@ -109,7 +110,15 @@ const CircularText = ({
         );
       })}
     </motion.div>
-  );
+
+    {/* ✅ CENTER IMAGE HERE */}
+    <img
+      src="/Images/plogo.png"
+      alt="Center"
+      className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16"
+    />
+  </div>
+);
 };
 
 export default CircularText;
