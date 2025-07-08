@@ -78,7 +78,7 @@ export default function Home() {
                 />
             </div>
 
-                        <div style={{  color: 'black', background: "transparent", marginTop: '0', fontFamily: 'Gilroy', fontWeight: 800}} className=" w-full flex justify-center items-center my-4 md:mt-15 text-center font-bold relative px-4 md:px-0">
+            <div style={{  color: 'black', background: "transparent", marginTop: '15vw', fontFamily: 'Gilroy', fontWeight: 800}} className=" w-full flex justify-center items-center my-4 md:mt-15 text-center font-bold relative px-4 md:px-0">
                 <BlurText
                     text="Joshua Abutan"
                     delay={150}
